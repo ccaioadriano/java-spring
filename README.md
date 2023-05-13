@@ -9,6 +9,12 @@ Antes de executar o projeto, você precisará ter as seguintes ferramentas insta
 - [Java JDK 11+](https://www.oracle.com/java/technologies/downloads/)
 - [Maven](https://maven.apache.org/)
 
+## Tecnologias utilizadas
+- Java
+- SpringBoot
+- Maven
+- Database H2
+
 ## Instalação e Execução
 
 1. Clone o repositório:
@@ -41,7 +47,7 @@ mvn spring-boot:run
 http://localhost:8080
 ```
 
-## Uso
+## Endpoints
 
 A aplicação é uma API REST que disponibiliza os seguintes endpoints:
 
@@ -58,7 +64,6 @@ A aplicação é uma API REST que disponibiliza os seguintes endpoints:
 Os dados da aplicação são salvos em um banco de dados H2 que é criado automaticamente ao executar a aplicação.
 
 ## Contribuição
-
 Se você quiser contribuir com este projeto, siga os seguintes passos:
 
 1. Faça um fork deste repositório.
@@ -66,7 +71,3 @@ Se você quiser contribuir com este projeto, siga os seguintes passos:
 3. Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`
 4. Envie a sua branch: `git push origin minha-feature`
 5. Faça um pull request.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Para mais informações, consulte o arquivo [LICENSE](https://github.com/ccaioadriano/java-spring/blob/main/LICENSE).
